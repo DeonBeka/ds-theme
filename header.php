@@ -8,4 +8,10 @@
     <?php wp_head();?>
 </head>
 <body>
-<?php wp_nav_menu(array('theme_location' => 'primary')); ?>
+    <header class="site-header">
+        <nav class="site-nav">
+            <?php wp_nav_menu(array(
+                'theme_location' => 'primary',
+                 'menu_class'=> 'main_menu')); ?>
+        </nav>
+    </header>   
