@@ -12,6 +12,6 @@
         <nav class="site-nav">
             <?php wp_nav_menu(array(
                 'theme_location' => 'primary',
-                 'menu_class'=> 'main_menu')); ?>
+                 'menu_class'=> 'main-menu')); ?>
         </nav>
     </header>   

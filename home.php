@@ -13,7 +13,7 @@
         </article>
         <?php endwhile;?>
         <nav class="pagenation">
-            <?php the_posts_pagenation();?>
+            <?php the_posts_pagination();?>
         </nav>
 
         <?php else: ?>
