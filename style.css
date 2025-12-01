@@ -612,3 +612,23 @@ Tags: cool, blue, mobile ready, school, digital
 .comment-form input[type="submit"]:hover {
   background: #1e3c8c;
 }
+/*new page front*/
+*{
+    padding: 0;
+    margin: 0;
+}
+.image_hero img{
+    width: 400px;
+    margin-left: 1300px;
+    margin-top: 100px;
+    display: flex;
+    height: 400px;
+    
+    border-radius: 1px solid black;
+}
+.hero_text{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin-bottom: 100px;
+  margin-left: 100px;
+
+}

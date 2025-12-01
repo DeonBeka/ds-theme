@@ -1,0 +1,11 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.image_hero {
+    width: 200px;
+    display: flex;
+    height: 200px;
+    padding: 200px, 150px;
+    border-radius: 1px solid black;
+}

@@ -10,52 +10,18 @@
 </head>
 <body>
     <main>
-        <section class="hero">
-    <img src="<?php echo esc_url(get_theme_file_uri("banner.png"))?>" alt="site banner">
-        </section>
-        <section class="features">
-            <br>
-            <h2 id="heading"> Why choose us?</h2>
-            <br>
+    <section class = "image_hero">
+        <img src="<?php echo esc_url(get_theme_file_uri("cs2.png"))?>" alt="cs2 image" width="200px", height="200px">
+    </section>
+    <section class ="hero_text">
+        <h2>This is the best game in Town</h2>
+        <h4>CS2 is the best game all over the world, its free on steam just download it and play.</h4>
+    </section>
 
-            <li>
-                <img src="<?php echo esc_url(get_theme_file_uri("project.png"))?>" alt="img">
-                <span>Projects based learning</span>
-            </li>
 
-            <li>
-                <img src="<?php echo esc_url(get_theme_file_uri("settings.png"))?>" alt="img">
-                <span>Instructors who inspire</span>
-            </li>
-
-            <li>
-                <img src="<?php echo esc_url(get_theme_file_uri("online.png"))?>" alt="img">
-                <span>Feature ready digital skills</span>
-            </li>
-
-            <li>
-                <img src="<?php echo esc_url(get_theme_file_uri("learn.jpg"))?>" alt="img">
-                <span>Online or in person learning</span>
-            </li>
-        </section>
-
-        <section class="section-pad">
-            <h2 id="curricula-heading">Curriculum by Age</h2>
-            <ul class="curricula-grid">
-
-                <li><strong>Content:</strong>Learning the Logic</li>
-                <li><strong>Period:</strong>Learning the Logic</li>
-                <li><strong>Intensity:</strong>Learning the Logic</li>
-                <li><strong>Method:</strong>Learning the Logic</li>
-            </ul>
-        </section>
     </main>
 </body>
 </html>
-
-
-
-
 
 
 <?php get_footer()?>
