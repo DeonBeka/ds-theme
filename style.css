@@ -613,22 +613,92 @@ Tags: cool, blue, mobile ready, school, digital
   background: #1e3c8c;
 }
 /*new page front*/
-*{
-    padding: 0;
+body {
     margin: 0;
-}
-.image_hero img{
-    width: 400px;
-    margin-left: 1300px;
-    margin-top: 100px;
-    display: flex;
-    height: 400px;
-    
-    border-radius: 1px solid black;
-}
-.hero_text{
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  margin-bottom: 100px;
-  margin-left: 100px;
+    padding: 0;
+    font-family: Arial, sans-serif;
 
+    background-image: url("https://images.unsplash.com/photo-1602600637763-3fda3df6a7a1");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+    color: #fff;
+}
+
+/* Wrapper */
+.page-wrapper {
+    max-width: 900px;
+    margin: 60px auto;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.55);
+    border-radius: 12px;
+    backdrop-filter: blur(5px);
+}
+
+/* Hero section */
+.hero-section {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.title {
+    font-size: 3.2rem;
+    color: #ffcc00;
+}
+
+.subtitle {
+    font-size: 1.3rem;
+    color: #ddd;
+    margin-top: 10px;
+}
+
+/* Info sections */
+.section-title {
+    font-size: 2rem;
+    color: #ffa500;
+    margin-bottom: 10px;
+    
+}
+.section-title1 {
+    font-size: 2rem;
+    color: #ffa500;
+    margin-bottom: 10px;
+    text-align: center;
+    
+}
+.video{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.section-paragraph {
+    color: #1e4554;
+    margin-bottom: 10px;
+    text-align: center;
+    
+}
+
+.section-text {
+    font-size: 1.2rem;
+    line-height: 1.7;
+    margin-bottom: 30px;
+}
+
+/* Reasons section */
+.reasons-list {
+    margin-left: 20px;
+}
+
+.reason-item {
+    font-size: 1.2rem;
+    line-height: 1.7;
+    margin-bottom: 8px;
+}
+select{
+  background-color: #ffcc00;
+  color: black;
+  border: 1px solid black;
+  border-radius: 5px;
 }
